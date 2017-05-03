@@ -31,7 +31,7 @@ var port = process.env.PORT || 8080;
       socket.broadcast.emit('user joined', {username: clientAddress,numUsers: numUsers});
     socket.emit('login', {clientAddress:clientAddress,userList:usernames,numUsers: numUsers});
     socket.on('add user', function (username) {
-      
+
     });
 
     socket.on('disconnect', function () {
