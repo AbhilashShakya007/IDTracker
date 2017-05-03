@@ -1,0 +1,28 @@
+ <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IP Tracker</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>  
+    <div class="page">
+      <div class = "heading">
+        <p id = "count" style="float: left"></p>
+        <h2 id = "heading"></h2>
+        <p id = "myName" style="float: right"></p>
+      </div>
+      <div class="userPage">
+        <h3 class="title" >Online IP's :</h3>
+        <ul class="userList"></ul>
+      </div>
+      <div class="logPage">
+        <p class="title" >Logs :</p>
+        <ul class="logs"></ul>
+      </div>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/main.js"></script>
+</body>

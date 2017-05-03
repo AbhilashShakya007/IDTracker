@@ -1,0 +1,76 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  word-wrap: break-word;
+}
+
+.heading h2,
+.heading p {
+    display: inline;
+}
+
+.page {
+  background-color: black;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.heading{
+  color : greenyellow;
+  text-align:center ;
+}
+
+
+.title{
+  text-align: center;
+  color: greenyellow;
+}
+
+.userPage {
+  width: 60%;
+  float:left;
+  height: 100%;
+}
+
+.userList {
+  color: greenyellow;
+  overflow-y: auto;
+  height : 100%;
+  text-align: center;
+  padding: 10px 30px 30px 20px;
+}
+
+.logs {
+  font-size: 100%;
+}
+
+.log {
+  color: gray;
+  font-size: 70%;
+  margin: 5px;
+  text-align: center;
+}
+
+.logPage {
+  height: 100%;
+  padding-bottom: 60px;
+}
+
+.logs {
+  height: 100%;
+  margin: 0;
+  border: 1px solid white;
+  overflow-y: auto;
+  padding: 10px 20px 30px 20px;
+}
